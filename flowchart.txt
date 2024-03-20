@@ -1,0 +1,25 @@
+1. Penempatan Barang = Tambah Barang
+    4 Tombol Action : 
+        - Tarik Barang
+        - Pengeluaran Barang
+        - Edit
+        - Hapus
+
+2. Penarikan Barang = Hapus Barang
+    2 Tombol Action : 
+        - Edit
+        - Hapus
+
+3. Pengeluaran Sementara Barang = Pindah Barang Sementara
+    2 Tombol Action : 
+        - Kembalikan Barang
+        - Edit
+        - Hapus
+
+Jumlah Database : 2
+ - Database Barang (Penempatan & Penarikan)
+ - Database Pengeluaran Sementara
+
+ Keterangan :
+ - Barang di Penarikan dihapus permanen
+ - Barang di Pengeluaran Sementara bisa dipindahkan kembali ke Penempatan barang
